@@ -4,9 +4,37 @@ body {
 }
 
 a {
-  color: #00b7ff;
+  color: #0026ff;
 }
 
 h1 {
   color: 15px;
+  margin: 3rem auto 1rem;
+}
+
+form {
+  display: block;
+  margin: 1rem auto;
+}
+
+input, textarea, select {
+  display: block;
+  margin: 0.5rem 0 1rem;
+}
+
+header form {
+  display: inline-block;
+}
+
+.box {
+  background-color: lightgoldenrodyellow;
+  border: 1px solid #666;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+.warning {
+  border: 1px solid rgb(167, 111, 9);
+  background-color: rgb(235, 212, 170);
+  padding: 1rem;
 }
